@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+html, body{
+  font-size: 18px;
+  background-color: #483D8B;
+  background-image: url(./imagenes/sky.png);
+  background-size: cover;
+}
+
+h1{
+  max-width: 940px;
+  font-size: 2.5em!important;
+  font-family: lato, sans-serif;
+  font-weight: 700!important;
+  line-height: 1.1!important;
+  margin: 40px 40px;
+  color: aliceblue!important;
+  align-self: center;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex ;
+  flex-wrap: wrap;
+  align-items:flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-principal{
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contenedor-con-scroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#global {
+	height: 500px;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+.texto {
+	padding:4px;
+}
